@@ -1,0 +1,25 @@
+{
+  "name": "Hello",
+  "shortName": "dwq",
+  "description": "dqw",
+  "lang": "dqw",
+  "direction": "rtl",
+  "display": "Standalone",
+  "orientation": "Any",
+  "theme_color": "dwq",
+  "background_color": "dwq",
+  "start_url": "dwq",
+  "scope": "dwq",
+  "icons": [
+    {
+      "src": "folder/example.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "folder/example.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}
