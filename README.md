@@ -20,7 +20,7 @@
 
 Generate a **minimal to full** PWA manifest interactively from start to finish 😎.
 
-![Basic example](static/demo.gif)
+![Basic example](static/usage.gif)
 
 ## Installation
 
