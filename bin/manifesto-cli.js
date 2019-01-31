@@ -31,7 +31,7 @@ program
 
 program
   .command('repo')
-  .description('Opens documentation on web manifests')
+  .description('Opens manifesto repository')
   .action(() => repo.openRepo());
 
 program.arguments('<command>').action(cmd => {
