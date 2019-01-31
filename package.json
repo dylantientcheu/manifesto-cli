@@ -1,12 +1,16 @@
 {
   "name": "manifesto-cli",
-  "version": "1.0.2",
+  "version": "0.6.0",
   "description": "A CLI app that helps generate a manifest file for your PWA",
   "repository": "blurdylan/manifesto-cli",
   "author": {
     "name": "Dylan Tientcheu",
     "email": "dylantientcheu@gmail.com",
     "url": "http://dylantientcheu.com"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "manifesto-cli": "./bin/manifesto-cli.js"
   },
   "keywords": [
     "manifesto",
@@ -16,10 +20,6 @@
     "cli"
   ],
   "license": "MIT",
-  "preferGlobal": true,
-  "bin": {
-    "manifesto-cli": "./bin/manifesto-cli.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js /lib /bin",
