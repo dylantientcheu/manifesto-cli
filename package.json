@@ -1,6 +1,6 @@
 {
 	"name": "manifesto-cli",
-	"version": "1.0.6",
+	"version": "2.0.0",
 	"description": "A CLI app that helps generate a manifest file for your PWA",
 	"repository": "blurdylan/manifesto-cli",
 	"author": {
@@ -10,7 +10,7 @@
 	},
 	"preferGlobal": true,
 	"bin": {
-		"manifesto-cli": "./bin/manifesto-cli.js"
+		"manifesto-cli": "bin/manifesto-cli.js"
 	},
 	"keywords": [
 		"manifesto",
