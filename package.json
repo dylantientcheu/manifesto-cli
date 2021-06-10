@@ -1,6 +1,6 @@
 {
 	"name": "manifesto-cli",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A CLI app that helps generate a manifest file for your PWA",
 	"repository": {
 		"type": "git",
