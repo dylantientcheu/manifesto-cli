@@ -1,17 +1,16 @@
 {
-  "extends": "eslint:recommended",
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 2018
-  },
+	"extends": "eslint:recommended",
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 2018
+	},
 
-  "env": {
-    "node": true,
-    "es6": true
-  },
-  "rules": {
-    "semi": ["error", "always"],
-    "quotes": ["warn", "single"],
-    "no-console": "off"
-  }
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"semi": ["error", "always"],
+		"no-console": "off"
+	}
 }
