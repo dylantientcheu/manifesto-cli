@@ -1,44 +1,51 @@
 {
-  "name": "manifesto-cli",
-  "version": "1.0.6",
-  "description": "A CLI app that helps generate a manifest file for your PWA",
-  "repository": "blurdylan/manifesto-cli",
-  "author": {
-    "name": "Dylan Tientcheu",
-    "email": "dylantientcheu@gmail.com",
-    "url": "http://dylantientcheu.com"
-  },
-  "preferGlobal": true,
-  "bin": {
-    "manifesto-cli": "./bin/manifesto-cli.js"
-  },
-  "keywords": [
-    "manifesto",
-    "manifest",
-    "pwa",
-    "generator",
-    "cli"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js /lib /bin",
-    "publish": "npm publish --access public"
-  },
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0",
-    "inquirer": "^6.2.1",
-    "opn": "^5.4.0",
-    "semver": "^5.6.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.12.1",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.15.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
-  }
+	"name": "manifesto-cli",
+	"version": "2.0.1",
+	"description": "A CLI app that helps generate a manifest file for your PWA",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blurdylan/manifesto-cli.git"
+	},
+	"main": "bin/manifesto-cli.js",
+	"author": {
+		"name": "Dylan Tientcheu",
+		"email": "dylantientcheu@gmail.com",
+		"url": "http://dylantientcheu.dev"
+	},
+	"preferGlobal": true,
+	"bin": {
+		"manifesto-cli": "bin/manifesto-cli.js"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"manifesto",
+		"manifest",
+		"pwa",
+		"generator",
+		"cli"
+	],
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --ext .js /lib /bin",
+		"publish": "npm publish --access public"
+	},
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"commander": "^7.2.0",
+		"inquirer": "^8.1.0",
+		"opn": "^6.0.0",
+		"semver": "^7.3.5"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.28.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-standard": "^5.0.0"
+	}
 }

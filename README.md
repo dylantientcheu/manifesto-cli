@@ -1,9 +1,8 @@
 [![Manifesto CLI](static/banner.png)](https://github.com/blurdylan/manifesto-cli)
 
-
 <p align="center"><img src="https://badgen.net/badge/node/%3E=8.3/green" alt="Minimum Node.js version" /><a href="https://twitter.com/dylantientcheu"><img src="https://img.shields.io/twitter/follow/dylantientcheu.svg?style=social&amp;label=Follow" alt="Twitter Follow" /></a><a href="https://github.com/blurdylan/manifesto-cli/blob/master/license"><img src="https://badgen.net/github/release/blurdylan/manifesto-cli" alt="MIT license" /></a><a href="https://github.com/blurdylan/manifesto-cli/graphs/commit-activity"><img src="https://badgen.net/github/last-commit/blurdylan/manifesto-cli" alt="Commit Status" /></a><a href="https://github.com/blurdylan/manifesto-cli/blob/master/license"><img src="https://badgen.net/badge/License/MIT/blue" alt="MIT license" /></a></p>
 
-----
+---
 
 > ⚡️ A CLI app that helps generate a manifest file for your PWA.
 
@@ -27,22 +26,24 @@ Generate a **minimal to full** PWA manifest interactively from start to finish �
 
 ## Installation
 
+If you need to have it globally
+
 #### npm
 
 ```
-$ npm i -g manifesto-cli
+npm i -g manifesto-cli
 ```
 
 #### yarn
 
 ```
-$ yarn global add manifesto-cli
+yarn global add manifesto-cli
 ```
 
 #### npx
 
 ```
-$ npx manifesto-cli generate --minimal
+npx manifesto-cli generate --minimal
 ```
 
 #### Requirements
@@ -69,15 +70,13 @@ Examples
 **Note**: You can also access the docs using
 
 ```
-  $ manifesto-cli docs
+  manifesto-cli docs
 ```
 
 ## Example
 
-### Generating a Manifest
-
 ```
-$ manifesto-cli generate
+manifesto-cli generate
 ```
 
 Manifesto cli will prompt you to enter some information regarding your app, after which your manifest [manifest.json] will be generated in the current file ✌.
