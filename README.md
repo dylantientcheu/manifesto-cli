@@ -1,4 +1,4 @@
-[![Manifesto CLI](static/banner.png)](https://github.com/blurdylan/manifesto-cli)
+[![Manifesto CLI](static/banner.jpg)](https://github.com/blurdylan/manifesto-cli)
 
 <p align="center"><img src="https://badgen.net/badge/node/%3E=8.3/green" alt="Minimum Node.js version" /><a href="https://twitter.com/dylantientcheu"><img src="https://img.shields.io/twitter/follow/dylantientcheu.svg?style=social&amp;label=Follow" alt="Twitter Follow" /></a><a href="https://github.com/blurdylan/manifesto-cli/blob/master/license"><img src="https://badgen.net/github/release/blurdylan/manifesto-cli" alt="MIT license" /></a><a href="https://github.com/blurdylan/manifesto-cli/graphs/commit-activity"><img src="https://badgen.net/github/last-commit/blurdylan/manifesto-cli" alt="Commit Status" /></a><a href="https://github.com/blurdylan/manifesto-cli/blob/master/license"><img src="https://badgen.net/badge/License/MIT/blue" alt="MIT license" /></a></p>
 
